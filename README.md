@@ -2,6 +2,8 @@
 
 A Python script for mass forwarding messages from one Telegram chat to another. Works as a userbot (using your account), so no need to add any bots to groups.
 
+### Working on 02.01.2026
+
 [🇷🇺 Русская версия](#русская-версия)
 
 ## Features
