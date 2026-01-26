@@ -19,7 +19,7 @@ A Python script for mass forwarding messages from one Telegram chat to another. 
 
 - ✅ Private chats (1-on-1)
 - ✅ Groups / Supergroups
-- ✅ Channels (admin rights required to forward **to** a channel)
+- ✅ Channels (admin rights required to forward **to** a channel, **not from**)
 
 ## Requirements
 
@@ -158,7 +158,7 @@ Python-скрипт для массовой пересылки сообщени�
 
 -    ✅ Личные чаты (1-на-1)
 -    ✅ Группы / Супергруппы
--    ✅ Каналы (нужны права админа для пересылки в канал)
+-    ✅ Каналы (нужны права админа для пересылки **в** канал, **не из**)
 
 ## Требования
 
