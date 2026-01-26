@@ -15,6 +15,12 @@ A Python script for mass forwarding messages from one Telegram chat to another. 
 -   ✅ Preserves chronological order
 -   ✅ Detailed logging to console and file
 
+### Supported chat types
+
+- ✅ Private chats (1-on-1)
+- ✅ Groups / Supergroups
+- ✅ Channels (admin rights required to forward **to** a channel)
+
 ## Requirements
 
 -   Python 3.8+
@@ -147,6 +153,12 @@ Python-скрипт для массовой пересылки сообщени�
 -   ✅ Работает с приватными группами (бот не нужен)
 -   ✅ Сохраняет хронологический порядок
 -   ✅ Подробное логирование в консоль и файл
+
+###Поддерживаемые типы чатов
+
+-    ✅ Личные чаты (1-на-1)
+-    ✅ Группы / Супергруппы
+-    ✅ Каналы (нужны права админа для пересылки в канал)
 
 ## Требования
 
