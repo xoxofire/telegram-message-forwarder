@@ -104,6 +104,11 @@ With default 1.5s delay:
 
 Plus potential FloodWait pauses (usually 10-50 minutes after every ~2000-3000 messages).
 
+## From the developer (me)
+
+-   I advise you to use a delay of 2 - 2.5 seconds instead of 1.5, in order to avoid unnecessary timeouts and, in rare cases, to block your account for 24 hours (or more if you continue to use a delay of less than 1.5 seconds).
+-   If you are forwarding more than 1000 messages, there may be timeouts for several seconds during loading, such as: "Sleeping for 3s (0:00:03) on GetHistoryRequest flood wait" - this will be written in the terminal. This is fine, just wait for the bot to download all the messages, and something like "Messages to forward: 10625, Estimated time: 7.4 hours" will appear, which means that progress has started. Pour the tea!
+
 ## Security Notes
 
 ⚠️ **Never share these files:**
@@ -229,6 +234,11 @@ python telegram_forward.py
 -   50 000 сообщений ≈ 24 часа
 
 Плюс возможные паузы на FloodWait (обычно 10-50 минут после каждых ~2000-3000 сообщений).
+
+## От разработчика (меня)
+
+-   Советую использовать задержку 2 - 2.5 секунды, вместо 1.5, во избежание лишних таймаутов и в редких случаях блокировке аккаунта на 24 часа (и более, если продолжите использовать задержку меньше 1.5с.)
+-   Если вы пересылаете больше 1000 сообщений, то при загрузке могут быть таймауты на несколько секунд, по типу: "Sleeping for 3s (0:00:03) on GetHistoryRequest flood wait" - это напишет в терминале. Это нормально, просто дождитесь пока бот загрузит все сообщения, и высветится что-то вроде: "Messages to forward: 10625, Estimated time: 7.4 hours" - это значит, что прогресс пошёл. Наливайте чай!
 
 ## Безопасность
 
