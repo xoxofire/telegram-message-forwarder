@@ -171,7 +171,10 @@ async def main():
         log.info(f"📂 Found saved progress: {forwarded_count} messages")
         log.info(f"   Resuming from ID > {last_forwarded_id}")
     
-    async with TelegramClient('session', int(API_ID), API_HASH) as client:
+    BOT_TOKEN = os.getenv('BOT_TOKEN')
+    client = TelegramClient('session', int(API_ID), API_HASH)
+    await client.start(bot_token=BOT_TOKEN)
+
         # Check authorization
         me = await client.get_me()
         log.info(f"✅ Logged in as: {me.first_name} (@{me.username})")
